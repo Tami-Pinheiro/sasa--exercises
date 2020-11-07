@@ -104,21 +104,21 @@ function zeroacemdowhile(){
 
     do{
         if(i==0){
-            resultado=i;
-            
+            resultado = i;
         }
-        else if(i>0 && i<100){
-            resultado= resultado+ ',' + i;
+        else if( i > 0 && i < 100){
+            resultado = resultado + ', ' + i;
         }
         else{
-            resultado=resultado +',' + i +'.';
+            resultado = resultado + ', ' + i + '.';
         }
         i++;
-        alert(resultado);
-    
+    }while(i <= 100);
 
-    }while(i<=100);
+    alert(resultado);
 }
+
+
 
 
 
